@@ -1,0 +1,131 @@
+ body
+ {
+    font: 20pt Montserrat;  
+    background-color: #f1e4de;
+ }
+
+.inline-block
+{
+    display: inline-block;
+    vertical-align: top;
+    background-color: #f1e4deee;
+    border: 4px dotted white;;
+}
+
+.block
+{
+    display: block;
+}
+
+.header
+{
+    background-image: url("stars.png");
+}
+
+.photo
+{
+    border-radius: 5px;
+    background-image: none;
+    border: none;
+}
+
+.header-text
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: none;
+}
+
+.description-text
+{
+    font-size: 14pt;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: none;
+}
+
+table
+{
+    border-collapse: collapse;
+    text-align: left;
+    border-radius: 5px;
+}
+
+th
+{
+    border-bottom: 2px solid #ffffff;
+    padding: 10px 8px;
+    background-color: #ffffff49;
+    font-weight: normal;
+    font-size: 14pt;
+}
+
+td
+{
+    padding: 9px 8px;
+    background-color: #ffffff49;
+    font-size: 12pt;
+}
+
+td:hover
+{
+    color:  #0b7fab;
+}
+
+tr:hover
+{
+    background-color:  #ffffff;
+}
+
+.line
+{
+    background-color: #7c7b89;
+    height: 1px;
+    margin-top: 8px;
+    padding: 0;
+}
+
+input
+{
+    font-family: Montserrat;
+    margin-left: 10px;
+    margin-block-end: 1em;
+}
+
+label
+{
+    margin-block-start: 1em;
+}
+
+.click-p
+{
+    text-align: center;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a 
+{
+    color: black; 
+}
+
+a:visited 
+{
+    color: black; 
+}
+
+a:active 
+{
+    color: #7c7b89;
+}
+
+.hidden-text
+{
+    display: none;
+    font-size: 14pt;
+    text-indent: 20px;
+	transition-duration: .1s;
+}
